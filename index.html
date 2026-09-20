@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <nav class="nav-links">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#skills">SKILLS</a>
+            <a href="#projects">PROJECTS</a>
+            <a href="#contacts">CONTACTS</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        
+        <section id="home" class="quote-section">
+            <blockquote class="cool-quote">
+                I don't think bad things happen to good people. I think bad things happen to everyone, and the way good people respond is what makes them good.
+            </blockquote>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="about-content">
+                <h2>ABOUT</h2>
+                <p>"I'm Karl Sazon, a Cybersecurity student at HAU. I'm starting to learn about different types of coding languages, and my interest in computers and how they function is what led me to this path, which I hope will help me make a living."</p>
+            </div>
+            <div class="profile-container">
+                <div class="profile-box">
+                    <img src="foro.jpg" alt="Picture">
+                </div>
+                <span class="profile-name">Sazon Karl</span>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-exp-container">
+            <div class="card rounded-card">
+                <h2>SKILLS</h2>
+                <ul>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>CSS</li>
+                </ul>
+            </div>
+            <div class="card rounded-card">
+                <h2>EXPERIENCE</h2>
+                <ul>
+                    <li>Academic Labs & Coursework</li>
+                    <li>Network Configuration Basics</li>
+                    <li>Linux Command Line</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <h1 class="section-title">PROJECTS</h1>
+            
+            <div class="project-controls-bar">
+                <div class="search-box">
+                    <input type="search" id="project-search" placeholder="Search projects..." />
+                </div>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="All">ALL</button>
+                    <button class="filter-btn" data-filter="HTML">HTML</button>
+                    <button class="filter-btn" data-filter="CSS">CSS</button>
+                    <button class="filter-btn" data-filter="JavaScript">JAVASCRIPT</button>
+                    <button class="filter-btn" data-filter="Lua">LUA</button>
+                </div>
+            </div>
+
+            <p id="project-count" class="project-count"></p>
+
+            <div id="project-list" class="projects-container"></div>
+        </section>
+
+        <section id="contacts" class="contacts-section">
+            <h2>CONTACTS:</h2>
+            <div class="contact-buttons">
+                <a href="#" class="contact-link">Gmail : karlcedrickmsazon@gmail.com</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <nav class="nav-links">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#skills">SKILLS</a>
+            <a href="#projects">PROJECTS</a>
+            <a href="#contacts">CONTACTS</a>
+        </nav>
+    </footer>
+
+</body>
+</html>
